@@ -1,0 +1,190 @@
+body{
+   display: inline-block;
+   background-image: url("images/table.jpg");
+   background-repeat: no-repeat;
+   background-size: 100pc;
+   margin: 0px 10px 0px 20px;
+   padding-top: 10px;
+}
+
+h1{
+    color: #FFD523;
+    text-shadow:4px 4px black;
+    position: absolute;
+    display: inline-block;
+    font-size: 120px;
+    left: 120px;
+    top: -80px;
+    font-family: 'Lobster', cursive;
+}
+h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+    font-family: 'Alfa Slab One', cursive;
+}
+.topo{
+padding-bottom: 150px;
+}
+.a{
+    color: black;
+    text-shadow: none;
+}
+.sloto{
+    position: absolute;
+    height: 150px;
+    width: 500px;
+    left: 600px;
+}
+.sloto1{
+    position: absolute;
+    height: 150px;
+    width: 620px;
+    left: 900px;
+}
+.card-gif{
+width: 120px;
+height: 120px;
+position: absolute;
+top: -10px;
+}
+.playing-area{
+    width: 1300px;
+    height: 150px;
+    margin: 0px 100px 0px 100px;
+    position: relative;
+}
+.user{
+width: 150px;
+height: 150px;
+position: absolute;
+left: 1150px;
+}
+.dealer{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.user-txt{
+display: inline-block;
+position: relative;
+left: 850px;
+top: 0px;
+}
+.deck{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    left: 600px;
+}
+.row11d{
+    display: flex;
+    width: 50%;
+    box-sizing: border-box;
+}
+.row21d{
+    display: flex;
+    width: 50%;
+}
+.row12d{ 
+    display: flex;
+    position: relative;
+    left: 150px;
+    width: 500px;
+}
+.row22d{
+    display: flex;
+    position: relative;
+    left: 150px;
+    width: 500px;
+}
+.row1d{
+    display: flex;
+    margin-top: 10px;
+}
+.row2d{
+    margin-top: 10px;
+    display: flex;
+}
+.card1D{
+    width: 100px;
+    height: 100px;
+}
+.hide{
+    display: none;
+}
+.handsum{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.hand-text{
+    position: absolute;
+}
+.dealerhandtext{
+
+}
+.userhandtext{
+    left: 900px;
+}
+.btns{
+display: inline-block;
+padding-top: 50px;
+position: relative;
+width: 1500px;
+}
+.hit{
+    font-size: 70px;
+position: absolute;
+left:600px;
+display: none;
+border-radius: 20%;
+    background-color: #FFD523;
+    
+}
+.play{
+    font-size: 120px;
+    border-radius: 20%;
+    background-color: #FFD523;
+}
+.stand{
+    font-size: 70px;
+    position: absolute;
+    left: 800px;
+    display: none;
+    border-radius: 20%;
+    background-color: #FFD523;
+}
+.winner{
+    position: absolute;
+    display: none;
+    right: 600px;
+    bottom: 220px;
+    height: 400px;
+    width: 500px;
+    border-radius: 20%;
+}
+.loser{
+    position: absolute;
+    display: none;
+    right: 600px;
+    bottom: 220px;
+    height: 400px;
+    width: 500px;
+    border-radius: 20%;
+}
+.letsplay{
+    position: absolute;
+    display: none;
+    height: 800px;
+    width: 1550px;
+    right: 0px;
+    bottom: 0px;
+}
+.copyright{
+    color: white;
+    position: fixed;
+    bottom: 10px;
+    left: 700px;
+}
